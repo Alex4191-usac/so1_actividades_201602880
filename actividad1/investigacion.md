@@ -24,5 +24,13 @@ A continuación, se presenta un cuadro comparativo que resalta las diferencias e
 
 
 ### User vs Kernel Mode
+la gestión eficiente de recursos y la seguridad son imperativos cruciales. Para lograr esto, se implementan un modelo de privilegios conocido como "User Mode" (Modo Usuario) y "Kernel Mode" (Modo Núcleo). Estos modos determinan el nivel de acceso y control que los programas y usuarios tienen sobre los recursos del sistema. 
+
+
+* **User Mode ***(Modo Usuario)***:**
+ En este modo, los programas ejecutado por un usuario final en un sistema operativo se ejecutan con privilegios limitados. Están restringidos en su capacidad para acceder directamente a áreas críticas del sistema y realizar operaciones de bajo nivel. Este modo es el entorno en el que operan la mayoría de las aplicaciones y programas cotidianos. Su principal característica es la limitación de privilegios para garantizar la seguridad y la estabilidad del sistema operativo.
+
+* **Kernel Mode ***(Modo Núcleo)***:**
+En este modo, el núcleo del sistema operativo tiene acceso completo y sin restricciones a todos los recursos del sistema. Puede realizar operaciones de bajo nivel, gestionar la memoria, controlar dispositivos de hardware y ejecutar tareas críticas para el funcionamiento del sistema
 
 ### Interruptions vs traps
