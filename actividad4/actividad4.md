@@ -27,3 +27,7 @@ sh chat_pipe2.sh
 ```
 
 3. **Demostracion grafica del funcionamiento**:
+![Captura Funcionamiento](https://github.com/Alex4191-usac/so1_actividades_201602880/blob/actividad4/actividad4/assets/screen_chat.png)
+
+
+
